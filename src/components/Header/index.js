@@ -14,13 +14,20 @@ const Header = () => (
     </div>
     <ul className="nav-menu-list">
       <li className="nav-item">
-        <Link to="/">Home</Link>
+        <Link to="/" className="link-item">
+          Home
+        </Link>
       </li>
       <li className="nav-item">
-        <Link to="/about">About</Link>
+        <Link to="/about" className="link-item">
+          About
+        </Link>
       </li>
       <li className="nav-item">
-        <Link to="/contact">Contact</Link>
+        <Link to="/contact" className="link-item">
+          {' '}
+          Contact
+        </Link>
       </li>
     </ul>
   </nav>

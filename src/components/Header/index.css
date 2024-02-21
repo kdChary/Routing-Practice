@@ -1,10 +1,12 @@
 /* Write your CSS code here */
 .header-section {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width: 95%;
   font-family: Arial, Helvetica, sans-serif;
+  padding: 3px 15px;
+  align-self: center;
 }
 
 .header-logo-section {
@@ -34,12 +36,20 @@
   list-style-type: none;
   width: 63%;
 }
-
-.button {
+@media (min-width: 768px) {
+  .header-logo-section {
+    width: 6%;
+  }
+  .nav-menu-list {
+    width: 23%;
+  }
+}
+.link-item {
   border: none;
   background-color: transparent;
   font-weight: 600;
   color: #6d396b;
   outline: none;
   cursor: pointer;
+  text-decoration: none;
 }
