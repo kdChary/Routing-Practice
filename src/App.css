@@ -13,3 +13,8 @@ body {
 }
 
 /* Write your CSS code here */
+body {
+  border: solid 2px #551e53;
+  border-radius: 25%;
+  height: 100vh;
+}
