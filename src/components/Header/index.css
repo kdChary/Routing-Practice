@@ -1,1 +1,50 @@
 /* Write your CSS code here */
+.header-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  /* position: fixed;
+  border: solid 1px #000000;
+  top: 0;
+  left: 0;
+  right: 0; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-logo-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 13%;
+}
+
+.wave-logo {
+  height: 21px;
+  width: 21px;
+  margin-right: 3px;
+}
+
+.header-app-name {
+  font-size: 15px;
+  font-weight: 600;
+  color: #6d396b;
+}
+
+.nav-menu-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 0;
+  list-style-type: none;
+  width: 63%;
+}
+
+.button {
+  border: none;
+  background-color: transparent;
+  font-weight: 600;
+  color: #6d396b;
+  outline: none;
+  cursor: pointer;
+}

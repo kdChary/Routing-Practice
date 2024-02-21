@@ -1,3 +1,15 @@
-const App = () => <h1>Remove this heading and write your code here</h1>
+import Header from './components/Header'
+import Contact from './components/Contact'
+import About from './components/About'
+import NotFound from './components/NotFound'
+
+const App = () => (
+  <>
+    <Header />
+    <About />
+    <Contact />
+    <NotFound />
+  </>
+)
 
 export default App
